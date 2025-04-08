@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="753.0" prefWidth="894.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Text layoutX="429.0" layoutY="66.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: gold;" text="Cart">
+         <font>
+            <Font name="Times New Roman" size="50.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="55.0" fitWidth="58.0" layoutX="14.0" layoutY="22.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../OneDrive/Desktop/Just%20PIZZA.png" />
+         </image>
+      </ImageView>
+      <Text layoutX="69.0" layoutY="56.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: gold;" text="Username Here" wrappingWidth="122.98307228088379" />
+      <ImageView fitHeight="110.0" fitWidth="101.0" layoutX="764.0" layoutY="7.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../OneDrive/Desktop/Updated%20logo.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="14.0" layoutY="667.0" mnemonicParsing="false" prefHeight="63.0" prefWidth="130.0" style="-fx-background-color: gold; -fx-text-fill: black;" text="Back to Menu " />
+      <Button layoutX="156.0" layoutY="667.0" mnemonicParsing="false" prefHeight="63.0" prefWidth="130.0" style="-fx-background-color: gold; -fx-text-fill: black;" text="Checkout" />
+      <Button layoutX="750.0" layoutY="667.0" mnemonicParsing="false" prefHeight="63.0" prefWidth="130.0" style="-fx-background-color: gold; -fx-text-fill: black;" text="Clear Cart" />
+      <ScrollPane layoutX="10.0" layoutY="103.0" prefHeight="548.0" prefWidth="872.0">
+        <content>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="548.0" prefWidth="870.0">
+               <children>
+                  <VBox prefHeight="537.0" prefWidth="863.0">
+                     <children>
+                        <TextArea prefHeight="66.0" prefWidth="863.0" text="Pizza: Size – Medium, Crust – Thin, Sauce – Marinara &#10;&#9;Toppings – Pepperoni &#10;Price: $11.99 &#10;" />
+                        <TextArea prefHeight="66.0" prefWidth="863.0" text=" Pizza: Size – Large, Crust – Thick, Sauce – BBQ &#10;&#9;Toppings – Chicken, Beef, Red Onion &#10;Price: $17.99&#10;" />
+                        <TextArea prefHeight="66.0" prefWidth="863.0" text="Beverage: Size – Large, Type – Nuka-Cola Quantum &#10;Price: $1.99&#10;" />
+                        <TextArea prefHeight="66.0" prefWidth="863.0" text="Subtotal: $31.97&#10;Taxes: $3.19&#10;Total: $36.17&#10;" />
+                     </children>
+                  </VBox>
+               </children>
+            </AnchorPane>
+        </content>
+      </ScrollPane>
+      <Button layoutX="607.0" layoutY="667.0" mnemonicParsing="false" prefHeight="63.0" prefWidth="130.0" style="-fx-background-color: gold; -fx-text-fill: black;" text="Remove Item" />
+   </children>
+</Pane>

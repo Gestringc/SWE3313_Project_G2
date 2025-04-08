@@ -1,0 +1,773 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.Spinner?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<TabPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="671.0" prefWidth="787.0" style="-fx-background-color: Black; -fx: Black; -fx-border-color: gold;" stylesheets="@../Styles/MenuColor.css" tabClosingPolicy="UNAVAILABLE" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1">
+  <tabs>
+    <Tab style="-fx-background-color: Black; -fx-text-base-color: Gold;" text="Pizza ">
+      <content>
+        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="570.0" prefWidth="729.0" style="-fx-border-color: gold;">
+               <children>
+                  <ImageView fitHeight="121.0" fitWidth="113.0" layoutX="667.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../../../OneDrive/Desktop/Updated%20logo.png" />
+                     </image>
+                  </ImageView>
+                  <Text layoutX="14.0" layoutY="48.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: Gold;" text="Size" wrappingWidth="60.13671875">
+                     <font>
+                        <Font name="Times New Roman" size="20.0" />
+                     </font>
+                  </Text>
+                  <Spinner layoutX="94.0" layoutY="29.0" prefHeight="15.0" prefWidth="109.0" />
+                  <Text layoutX="14.0" layoutY="88.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: Gold;" text="Crust" wrappingWidth="60.13671875">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Text>
+                  <Spinner layoutX="94.0" layoutY="68.0" prefHeight="15.0" prefWidth="109.0" />
+                  <Text layoutX="91.0" layoutY="165.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: Gold;" text="Toppings" textAlignment="CENTER" wrappingWidth="91.13671875">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Text>
+                  <RadioButton layoutX="14.0" layoutY="183.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="133.0" style="-fx-text-fill: Gold;" text="xxx">
+                     <font>
+                        <Font size="17.0" />
+                     </font>
+                  </RadioButton>
+                  <RadioButton layoutX="14.0" layoutY="221.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="133.0" style="-fx-text-fill: Gold;" text="xxx">
+                     <font>
+                        <Font size="17.0" />
+                     </font>
+                  </RadioButton>
+                  <RadioButton layoutX="14.0" layoutY="260.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="133.0" style="-fx-text-fill: Gold;" text="xxx">
+                     <font>
+                        <Font size="17.0" />
+                     </font>
+                  </RadioButton>
+                  <RadioButton layoutX="14.0" layoutY="294.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="172.0" style="-fx-text-fill: Gold;" text="xxx">
+                     <font>
+                        <Font size="17.0" />
+                     </font>
+                  </RadioButton>
+                  <RadioButton layoutX="14.0" layoutY="373.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="153.0" style="-fx-text-fill: Gold;" text="xxx">
+                     <font>
+                        <Font size="17.0" />
+                     </font>
+                  </RadioButton>
+                  <RadioButton layoutX="14.0" layoutY="457.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="133.0" style="-fx-text-fill: Gold;" text="xxx">
+                     <font>
+                        <Font size="17.0" />
+                     </font>
+                  </RadioButton>
+                  <RadioButton layoutX="14.0" layoutY="414.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="133.0" style="-fx-text-fill: Gold;" text="xxx">
+                     <font>
+                        <Font size="17.0" />
+                     </font>
+                  </RadioButton>
+                  <RadioButton layoutX="14.0" layoutY="498.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="133.0" style="-fx-text-fill: Gold;" text="xxx">
+                     <font>
+                        <Font size="17.0" />
+                     </font>
+                  </RadioButton>
+                  <RadioButton layoutX="14.0" layoutY="538.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="133.0" style="-fx-text-fill: Gold;" text="xxx">
+                     <font>
+                        <Font size="17.0" />
+                     </font>
+                  </RadioButton>
+                  <RadioButton layoutX="14.0" layoutY="333.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="133.0" style="-fx-text-fill: Gold;" text="xxx">
+                     <font>
+                        <Font size="17.0" />
+                     </font>
+                  </RadioButton>
+                  <Text layoutX="14.0" layoutY="126.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: Gold;" text="Sauce" wrappingWidth="60.13671875">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Text>
+                  <Spinner layoutX="94.0" layoutY="106.0" prefHeight="15.0" prefWidth="109.0" />
+                  <RadioButton layoutX="175.0" layoutY="183.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="133.0" style="-fx-text-fill: Gold;" text="xxx">
+                     <font>
+                        <Font size="17.0" />
+                     </font>
+                  </RadioButton>
+                  <RadioButton layoutX="175.0" layoutY="221.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="133.0" style="-fx-text-fill: Gold;" text="xxx">
+                     <font>
+                        <Font size="17.0" />
+                     </font>
+                  </RadioButton>
+                  <RadioButton layoutX="175.0" layoutY="260.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="133.0" style="-fx-text-fill: Gold;" text="xxx">
+                     <font>
+                        <Font size="17.0" />
+                     </font>
+                  </RadioButton>
+                  <RadioButton layoutX="175.0" layoutY="295.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="133.0" style="-fx-text-fill: Gold;" text="xxx">
+                     <font>
+                        <Font size="17.0" />
+                     </font>
+                  </RadioButton>
+                  <RadioButton layoutX="175.0" layoutY="333.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="133.0" style="-fx-text-fill: Gold;" text="xxx">
+                     <font>
+                        <Font size="17.0" />
+                     </font>
+                  </RadioButton>
+                  <RadioButton layoutX="175.0" layoutY="373.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="133.0" style="-fx-text-fill: Gold;" text="xxx">
+                     <font>
+                        <Font size="17.0" />
+                     </font>
+                  </RadioButton>
+                  <RadioButton layoutX="175.0" layoutY="414.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="133.0" style="-fx-text-fill: Gold;" text="xx">
+                     <font>
+                        <Font size="17.0" />
+                     </font>
+                  </RadioButton>
+                  <RadioButton layoutX="175.0" layoutY="457.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="133.0" style="-fx-text-fill: Gold;" text="xxx">
+                     <font>
+                        <Font size="17.0" />
+                     </font>
+                  </RadioButton>
+                  <RadioButton layoutX="175.0" layoutY="498.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="133.0" style="-fx-text-fill: Gold;" text="xxx">
+                     <font>
+                        <Font size="17.0" />
+                     </font>
+                  </RadioButton>
+                  <RadioButton layoutX="175.0" layoutY="538.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="133.0" style="-fx-text-fill: Gold;" text="xxx">
+                     <font>
+                        <Font size="17.0" />
+                     </font>
+                  </RadioButton>
+                  <ImageView fitHeight="52.0" fitWidth="63.0" layoutX="714.0" layoutY="553.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../../../OneDrive/Desktop/shopping-cart-png-image-download-pngm-2.png" />
+                     </image>
+                  </ImageView>
+                  <Text layoutX="625.0" layoutY="586.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: gold;" text="View Cart:" wrappingWidth="84.13671875">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Text>
+                  <Button layoutX="351.0" layoutY="46.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="138.0" style="-fx-background-color: gold;" text="Add to Cart" textAlignment="CENTER">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Button>
+                  <Text layoutX="495.0" layoutY="75.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: gold;" text="Price:" wrappingWidth="50.13671875">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="545.0" layoutY="75.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: gold;" text="xxx" wrappingWidth="32.13671875">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Text>
+                  <TextArea layoutX="336.0" layoutY="204.0" prefHeight="294.0" prefWidth="369.0" style="-fx-control-inner-background: black; -fx-text-fill: gold; -fx-border-color: transparent; -fx-background-color: transparent; -fx-faint-focus-color: transparent; -fx-focus-color: transparent;" text="A Description of the pizza will be displayed as it is &#10;selected.&#10;&#10;Example Pizza &#10;&#10;Large Italian Crust with Marinara sauce topped with &#10;pepperoni, mushrooms, and green peppers! &#10;&#10;">
+                     <font>
+                        <Font name="Times New Roman" size="15.0" />
+                     </font>
+                  </TextArea>
+               </children></AnchorPane>
+      </content>
+    </Tab>
+    <Tab style="-fx-background-color: Black; -fx-text-base-color: Gold;" text="Sandwiches">
+         <content>
+            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="570.0" prefWidth="729.0" style="-fx-border-color: gold;">
+               <children>
+                  <ImageView fitHeight="121.0" fitWidth="113.0" layoutX="667.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../../../OneDrive/Desktop/Updated%20logo.png" />
+                     </image>
+                  </ImageView>
+                  <Text layoutX="14.0" layoutY="48.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: Gold;" text="Size" wrappingWidth="60.13671875">
+                     <font>
+                        <Font name="Times New Roman" size="20.0" />
+                     </font>
+                  </Text>
+                  <Spinner layoutX="94.0" layoutY="29.0" prefHeight="15.0" prefWidth="109.0" />
+                  <Text layoutX="14.0" layoutY="88.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: Gold;" text="Bread" wrappingWidth="60.13671875">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Text>
+                  <Spinner layoutX="94.0" layoutY="68.0" prefHeight="15.0" prefWidth="109.0" />
+                  <Text layoutX="74.0" layoutY="151.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: Gold;" text="Sandwhiches" textAlignment="CENTER" wrappingWidth="122.13671875">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Text>
+                  <RadioButton layoutX="14.0" layoutY="183.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="133.0" style="-fx-text-fill: Gold;" text="xxx">
+                     <font>
+                        <Font size="17.0" />
+                     </font>
+                  </RadioButton>
+                  <RadioButton layoutX="14.0" layoutY="221.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="133.0" style="-fx-text-fill: Gold;" text="xxx">
+                     <font>
+                        <Font size="17.0" />
+                     </font>
+                  </RadioButton>
+                  <RadioButton layoutX="14.0" layoutY="260.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="133.0" style="-fx-text-fill: Gold;" text="xxx">
+                     <font>
+                        <Font size="17.0" />
+                     </font>
+                  </RadioButton>
+                  <RadioButton layoutX="14.0" layoutY="294.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="172.0" style="-fx-text-fill: Gold;" text="xxx">
+                     <font>
+                        <Font size="17.0" />
+                     </font>
+                  </RadioButton>
+                  <RadioButton layoutX="14.0" layoutY="373.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="153.0" style="-fx-text-fill: Gold;" text="xxx">
+                     <font>
+                        <Font size="17.0" />
+                     </font>
+                  </RadioButton>
+                  <RadioButton layoutX="14.0" layoutY="457.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="133.0" style="-fx-text-fill: Gold;" text="xxx">
+                     <font>
+                        <Font size="17.0" />
+                     </font>
+                  </RadioButton>
+                  <RadioButton layoutX="14.0" layoutY="414.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="133.0" style="-fx-text-fill: Gold;" text="xxx">
+                     <font>
+                        <Font size="17.0" />
+                     </font>
+                  </RadioButton>
+                  <RadioButton layoutX="14.0" layoutY="498.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="133.0" style="-fx-text-fill: Gold;" text="xxx">
+                     <font>
+                        <Font size="17.0" />
+                     </font>
+                  </RadioButton>
+                  <RadioButton layoutX="14.0" layoutY="538.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="133.0" style="-fx-text-fill: Gold;" text="xxx">
+                     <font>
+                        <Font size="17.0" />
+                     </font>
+                  </RadioButton>
+                  <RadioButton layoutX="14.0" layoutY="333.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="133.0" style="-fx-text-fill: Gold;" text="xxx">
+                     <font>
+                        <Font size="17.0" />
+                     </font>
+                  </RadioButton>
+                  <RadioButton layoutX="175.0" layoutY="183.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="133.0" style="-fx-text-fill: Gold;" text="xxx">
+                     <font>
+                        <Font size="17.0" />
+                     </font>
+                  </RadioButton>
+                  <RadioButton layoutX="175.0" layoutY="221.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="133.0" style="-fx-text-fill: Gold;" text="xxx">
+                     <font>
+                        <Font size="17.0" />
+                     </font>
+                  </RadioButton>
+                  <RadioButton layoutX="175.0" layoutY="260.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="133.0" style="-fx-text-fill: Gold;" text="xxx">
+                     <font>
+                        <Font size="17.0" />
+                     </font>
+                  </RadioButton>
+                  <RadioButton layoutX="175.0" layoutY="295.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="133.0" style="-fx-text-fill: Gold;" text="xxx">
+                     <font>
+                        <Font size="17.0" />
+                     </font>
+                  </RadioButton>
+                  <RadioButton layoutX="175.0" layoutY="333.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="133.0" style="-fx-text-fill: Gold;" text="xxx">
+                     <font>
+                        <Font size="17.0" />
+                     </font>
+                  </RadioButton>
+                  <RadioButton layoutX="175.0" layoutY="373.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="133.0" style="-fx-text-fill: Gold;" text="xxx">
+                     <font>
+                        <Font size="17.0" />
+                     </font>
+                  </RadioButton>
+                  <RadioButton layoutX="175.0" layoutY="414.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="133.0" style="-fx-text-fill: Gold;" text="xx">
+                     <font>
+                        <Font size="17.0" />
+                     </font>
+                  </RadioButton>
+                  <RadioButton layoutX="175.0" layoutY="457.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="133.0" style="-fx-text-fill: Gold;" text="xxx">
+                     <font>
+                        <Font size="17.0" />
+                     </font>
+                  </RadioButton>
+                  <RadioButton layoutX="175.0" layoutY="498.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="133.0" style="-fx-text-fill: Gold;" text="xxx">
+                     <font>
+                        <Font size="17.0" />
+                     </font>
+                  </RadioButton>
+                  <RadioButton layoutX="175.0" layoutY="538.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="133.0" style="-fx-text-fill: Gold;" text="xxx">
+                     <font>
+                        <Font size="17.0" />
+                     </font>
+                  </RadioButton>
+                  <ImageView fitHeight="52.0" fitWidth="63.0" layoutX="714.0" layoutY="553.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../../../OneDrive/Desktop/shopping-cart-png-image-download-pngm-2.png" />
+                     </image>
+                  </ImageView>
+                  <Text layoutX="625.0" layoutY="586.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: gold;" text="View Cart:" wrappingWidth="84.13671875">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Text>
+                  <Button layoutX="351.0" layoutY="46.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="138.0" style="-fx-background-color: gold;" text="Add to Cart" textAlignment="CENTER">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Button>
+                  <Text layoutX="495.0" layoutY="75.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: gold;" text="Price:" wrappingWidth="50.13671875">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="545.0" layoutY="75.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: gold;" text="xxx" wrappingWidth="32.13671875">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Text>
+                  <TextArea layoutX="321.0" layoutY="212.0" prefHeight="324.0" prefWidth="396.0" style="-fx-control-inner-background: black; -fx-text-fill: gold; -fx-border-color: transparent; -fx-background-color: transparent; -fx-faint-focus-color: transparent; -fx-focus-color: transparent;" text="A Description of the item will appear here once selected&#10;&#10;Example Sandwhich &#10;&#10;A delicious Pastrami on Rye lathered in our custom stone &#10;ground mustard! ">
+                     <font>
+                        <Font name="Times New Roman" size="15.0" />
+                     </font>
+                  </TextArea>
+               </children>
+            </AnchorPane>
+         </content>
+    </Tab>
+      <Tab style="-fx-background-color: Black; -fx-text-base-color: Gold;" text="Sides">
+         <content>
+            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="570.0" prefWidth="729.0" style="-fx-border-color: gold;">
+               <children>
+                  <ImageView fitHeight="121.0" fitWidth="113.0" layoutX="667.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../../../OneDrive/Desktop/Updated%20logo.png" />
+                     </image>
+                  </ImageView>
+                  <Text layoutX="14.0" layoutY="74.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: Gold;" text="Size" wrappingWidth="60.13671875">
+                     <font>
+                        <Font name="Times New Roman" size="20.0" />
+                     </font>
+                  </Text>
+                  <Spinner layoutX="93.0" layoutY="54.0" prefHeight="15.0" prefWidth="109.0" />
+                  <Text layoutX="67.0" layoutY="141.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: Gold;" text="Options" textAlignment="CENTER" wrappingWidth="108.13671875">
+                     <font>
+                        <Font name="Times New Roman" size="20.0" />
+                     </font>
+                  </Text>
+                  <RadioButton layoutX="14.0" layoutY="168.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="133.0" style="-fx-text-fill: Gold;" text="xxx">
+                     <font>
+                        <Font size="17.0" />
+                     </font>
+                  </RadioButton>
+                  <RadioButton layoutX="14.0" layoutY="206.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="133.0" style="-fx-text-fill: Gold;" text="xxx">
+                     <font>
+                        <Font size="17.0" />
+                     </font>
+                  </RadioButton>
+                  <RadioButton layoutX="14.0" layoutY="245.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="133.0" style="-fx-text-fill: Gold;" text="xxx">
+                     <font>
+                        <Font size="17.0" />
+                     </font>
+                  </RadioButton>
+                  <RadioButton layoutX="14.0" layoutY="279.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="172.0" style="-fx-text-fill: Gold;" text="xxx">
+                     <font>
+                        <Font size="17.0" />
+                     </font>
+                  </RadioButton>
+                  <RadioButton layoutX="14.0" layoutY="358.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="153.0" style="-fx-text-fill: Gold;" text="xxx">
+                     <font>
+                        <Font size="17.0" />
+                     </font>
+                  </RadioButton>
+                  <RadioButton layoutX="14.0" layoutY="442.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="133.0" style="-fx-text-fill: Gold;" text="xxx">
+                     <font>
+                        <Font size="17.0" />
+                     </font>
+                  </RadioButton>
+                  <RadioButton layoutX="14.0" layoutY="399.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="133.0" style="-fx-text-fill: Gold;" text="xxx">
+                     <font>
+                        <Font size="17.0" />
+                     </font>
+                  </RadioButton>
+                  <RadioButton layoutX="14.0" layoutY="483.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="133.0" style="-fx-text-fill: Gold;" text="xxx">
+                     <font>
+                        <Font size="17.0" />
+                     </font>
+                  </RadioButton>
+                  <RadioButton layoutX="14.0" layoutY="523.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="133.0" style="-fx-text-fill: Gold;" text="xxx">
+                     <font>
+                        <Font size="17.0" />
+                     </font>
+                  </RadioButton>
+                  <RadioButton layoutX="14.0" layoutY="318.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="133.0" style="-fx-text-fill: Gold;" text="xxx">
+                     <font>
+                        <Font size="17.0" />
+                     </font>
+                  </RadioButton>
+                  <RadioButton layoutX="167.0" layoutY="166.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="133.0" style="-fx-text-fill: Gold;" text="xxx">
+                     <font>
+                        <Font size="17.0" />
+                     </font>
+                  </RadioButton>
+                  <RadioButton layoutX="167.0" layoutY="204.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="133.0" style="-fx-text-fill: Gold;" text="xxx">
+                     <font>
+                        <Font size="17.0" />
+                     </font>
+                  </RadioButton>
+                  <RadioButton layoutX="167.0" layoutY="243.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="133.0" style="-fx-text-fill: Gold;" text="xxx">
+                     <font>
+                        <Font size="17.0" />
+                     </font>
+                  </RadioButton>
+                  <RadioButton layoutX="167.0" layoutY="278.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="133.0" style="-fx-text-fill: Gold;" text="xxx">
+                     <font>
+                        <Font size="17.0" />
+                     </font>
+                  </RadioButton>
+                  <RadioButton layoutX="167.0" layoutY="316.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="133.0" style="-fx-text-fill: Gold;" text="xxx">
+                     <font>
+                        <Font size="17.0" />
+                     </font>
+                  </RadioButton>
+                  <RadioButton layoutX="167.0" layoutY="356.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="133.0" style="-fx-text-fill: Gold;" text="xxx">
+                     <font>
+                        <Font size="17.0" />
+                     </font>
+                  </RadioButton>
+                  <RadioButton layoutX="167.0" layoutY="397.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="133.0" style="-fx-text-fill: Gold;" text="xxx">
+                     <font>
+                        <Font size="17.0" />
+                     </font>
+                  </RadioButton>
+                  <RadioButton layoutX="167.0" layoutY="440.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="133.0" style="-fx-text-fill: Gold;" text="xxx">
+                     <font>
+                        <Font size="17.0" />
+                     </font>
+                  </RadioButton>
+                  <RadioButton layoutX="167.0" layoutY="481.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="133.0" style="-fx-text-fill: Gold;" text="xxx">
+                     <font>
+                        <Font size="17.0" />
+                     </font>
+                  </RadioButton>
+                  <RadioButton layoutX="167.0" layoutY="521.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="133.0" style="-fx-text-fill: Gold;" text="xxx">
+                     <font>
+                        <Font size="17.0" />
+                     </font>
+                  </RadioButton>
+                  <ImageView fitHeight="52.0" fitWidth="63.0" layoutX="714.0" layoutY="553.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../../../OneDrive/Desktop/shopping-cart-png-image-download-pngm-2.png" />
+                     </image>
+                  </ImageView>
+                  <Text layoutX="625.0" layoutY="586.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: gold;" text="View Cart:" wrappingWidth="84.13671875">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Text>
+                  <Button layoutX="351.0" layoutY="46.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="138.0" style="-fx-background-color: gold;" text="Add to Cart" textAlignment="CENTER">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Button>
+                  <Text layoutX="495.0" layoutY="75.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: gold;" text="Price:" wrappingWidth="50.13671875">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="545.0" layoutY="75.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: gold;" text="xxx" wrappingWidth="32.13671875">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Text>
+               </children>
+            </AnchorPane>
+         </content>
+      </Tab>
+      <Tab style="-fx-background-color: Black; -fx-text-base-color: Gold;" text="Beverages">
+         <content>
+            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+               <children>
+                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="570.0" prefWidth="729.0">
+                     <children>
+                        <ImageView fitHeight="121.0" fitWidth="113.0" layoutX="667.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../../../../OneDrive/Desktop/Updated%20logo.png" />
+                           </image>
+                        </ImageView>
+                        <Text layoutX="14.0" layoutY="48.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: Gold;" text="Size" wrappingWidth="60.13671875">
+                           <font>
+                              <Font name="Times New Roman" size="20.0" />
+                           </font>
+                        </Text>
+                        <Spinner layoutX="94.0" layoutY="29.0" prefHeight="15.0" prefWidth="109.0" />
+                        <Text layoutX="14.0" layoutY="88.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: Gold;" text="Crust" wrappingWidth="60.13671875">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </Text>
+                        <Spinner layoutX="94.0" layoutY="68.0" prefHeight="15.0" prefWidth="109.0" />
+                        <Text layoutX="91.0" layoutY="165.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: Gold;" text="Toppings" textAlignment="CENTER" wrappingWidth="91.13671875">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </Text>
+                        <RadioButton layoutX="14.0" layoutY="183.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="133.0" style="-fx-text-fill: Gold;" text="xxx">
+                           <font>
+                              <Font size="17.0" />
+                           </font>
+                        </RadioButton>
+                        <RadioButton layoutX="14.0" layoutY="221.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="133.0" style="-fx-text-fill: Gold;" text="xxx">
+                           <font>
+                              <Font size="17.0" />
+                           </font>
+                        </RadioButton>
+                        <RadioButton layoutX="14.0" layoutY="260.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="133.0" style="-fx-text-fill: Gold;" text="xxx">
+                           <font>
+                              <Font size="17.0" />
+                           </font>
+                        </RadioButton>
+                        <RadioButton layoutX="14.0" layoutY="294.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="172.0" style="-fx-text-fill: Gold;" text="xxx">
+                           <font>
+                              <Font size="17.0" />
+                           </font>
+                        </RadioButton>
+                        <RadioButton layoutX="14.0" layoutY="373.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="153.0" style="-fx-text-fill: Gold;" text="xxx">
+                           <font>
+                              <Font size="17.0" />
+                           </font>
+                        </RadioButton>
+                        <RadioButton layoutX="14.0" layoutY="457.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="133.0" style="-fx-text-fill: Gold;" text="xxx">
+                           <font>
+                              <Font size="17.0" />
+                           </font>
+                        </RadioButton>
+                        <RadioButton layoutX="14.0" layoutY="414.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="133.0" style="-fx-text-fill: Gold;" text="xxx">
+                           <font>
+                              <Font size="17.0" />
+                           </font>
+                        </RadioButton>
+                        <RadioButton layoutX="14.0" layoutY="498.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="133.0" style="-fx-text-fill: Gold;" text="xxx">
+                           <font>
+                              <Font size="17.0" />
+                           </font>
+                        </RadioButton>
+                        <RadioButton layoutX="14.0" layoutY="538.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="133.0" style="-fx-text-fill: Gold;" text="xxx">
+                           <font>
+                              <Font size="17.0" />
+                           </font>
+                        </RadioButton>
+                        <RadioButton layoutX="14.0" layoutY="333.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="133.0" style="-fx-text-fill: Gold;" text="xxx">
+                           <font>
+                              <Font size="17.0" />
+                           </font>
+                        </RadioButton>
+                        <Text layoutX="14.0" layoutY="126.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: Gold;" text="Sauce" wrappingWidth="60.13671875">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </Text>
+                        <Spinner layoutX="94.0" layoutY="106.0" prefHeight="15.0" prefWidth="109.0" />
+                        <RadioButton layoutX="175.0" layoutY="183.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="133.0" style="-fx-text-fill: Gold;" text="xxx">
+                           <font>
+                              <Font size="17.0" />
+                           </font>
+                        </RadioButton>
+                        <RadioButton layoutX="175.0" layoutY="221.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="133.0" style="-fx-text-fill: Gold;" text="xxx">
+                           <font>
+                              <Font size="17.0" />
+                           </font>
+                        </RadioButton>
+                        <RadioButton layoutX="175.0" layoutY="260.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="133.0" style="-fx-text-fill: Gold;" text="xxx">
+                           <font>
+                              <Font size="17.0" />
+                           </font>
+                        </RadioButton>
+                        <RadioButton layoutX="175.0" layoutY="295.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="133.0" style="-fx-text-fill: Gold;" text="xxx">
+                           <font>
+                              <Font size="17.0" />
+                           </font>
+                        </RadioButton>
+                        <RadioButton layoutX="175.0" layoutY="333.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="133.0" style="-fx-text-fill: Gold;" text="xxx">
+                           <font>
+                              <Font size="17.0" />
+                           </font>
+                        </RadioButton>
+                        <RadioButton layoutX="175.0" layoutY="373.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="133.0" style="-fx-text-fill: Gold;" text="xxx">
+                           <font>
+                              <Font size="17.0" />
+                           </font>
+                        </RadioButton>
+                        <RadioButton layoutX="175.0" layoutY="414.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="133.0" style="-fx-text-fill: Gold;" text="xx">
+                           <font>
+                              <Font size="17.0" />
+                           </font>
+                        </RadioButton>
+                        <RadioButton layoutX="175.0" layoutY="457.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="133.0" style="-fx-text-fill: Gold;" text="xxx">
+                           <font>
+                              <Font size="17.0" />
+                           </font>
+                        </RadioButton>
+                        <RadioButton layoutX="175.0" layoutY="498.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="133.0" style="-fx-text-fill: Gold;" text="xxx">
+                           <font>
+                              <Font size="17.0" />
+                           </font>
+                        </RadioButton>
+                        <RadioButton layoutX="175.0" layoutY="538.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="133.0" style="-fx-text-fill: Gold;" text="xxx">
+                           <font>
+                              <Font size="17.0" />
+                           </font>
+                        </RadioButton>
+                        <ImageView fitHeight="52.0" fitWidth="63.0" layoutX="714.0" layoutY="553.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../../../../OneDrive/Desktop/shopping-cart-png-image-download-pngm-2.png" />
+                           </image>
+                        </ImageView>
+                        <Text layoutX="625.0" layoutY="586.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: gold;" text="View Cart:" wrappingWidth="84.13671875">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Text>
+                        <Button layoutX="351.0" layoutY="46.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="138.0" style="-fx-background-color: gold;" text="Add to Cart" textAlignment="CENTER">
+                           <font>
+                              <Font name="System Bold" size="18.0" />
+                           </font>
+                        </Button>
+                     </children>
+                  </AnchorPane>
+               </children>
+            </AnchorPane>
+         </content>
+         <content>
+            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="570.0" prefWidth="729.0" style="-fx-border-color: gold;">
+               <children>
+                  <ImageView fitHeight="121.0" fitWidth="113.0" layoutX="667.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../../../OneDrive/Desktop/Updated%20logo.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="52.0" fitWidth="63.0" layoutX="714.0" layoutY="553.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../../../OneDrive/Desktop/shopping-cart-png-image-download-pngm-2.png" />
+                     </image>
+                  </ImageView>
+                  <Text layoutX="625.0" layoutY="586.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: gold;" text="View Cart:" wrappingWidth="84.13671875">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Text>
+                  <Button layoutX="351.0" layoutY="46.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="138.0" style="-fx-background-color: gold;" text="Add to Cart" textAlignment="CENTER">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Button>
+                  <Text layoutX="26.0" layoutY="75.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: Gold;" text="Size" wrappingWidth="60.13671875">
+                     <font>
+                        <Font name="Times New Roman" size="20.0" />
+                     </font>
+                  </Text>
+                  <Spinner layoutX="80.0" layoutY="56.0" prefHeight="15.0" prefWidth="109.0" />
+                  <Button contentDisplay="GRAPHIC_ONLY" layoutX="47.0" layoutY="154.0" mnemonicParsing="false" prefHeight="117.0" prefWidth="182.0" text="Button">
+                     <graphic>
+                        <ImageView fitHeight="141.0" fitWidth="175.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../../../../OneDrive/Desktop/Nuka%20Real.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Button contentDisplay="GRAPHIC_ONLY" layoutX="276.0" layoutY="157.0" mnemonicParsing="false" prefHeight="115.0" prefWidth="192.0" text="Button">
+                     <graphic>
+                        <ImageView fitHeight="129.0" fitWidth="176.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../../../../OneDrive/Desktop/dieter.jpg" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Button contentDisplay="GRAPHIC_ONLY" layoutX="489.0" layoutY="156.0" mnemonicParsing="false" prefHeight="115.0" prefWidth="221.0" text="Button">
+                     <graphic>
+                        <ImageView fitHeight="101.0" fitWidth="191.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../../../../OneDrive/Desktop/Nuka%20Quantum.jpg" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Button contentDisplay="GRAPHIC_ONLY" layoutX="47.0" layoutY="329.0" mnemonicParsing="false" prefHeight="117.0" prefWidth="182.0" text="Button">
+                     <graphic>
+                        <ImageView fitHeight="141.0" fitWidth="175.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../../../../OneDrive/Desktop/Quartz.jpg" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Button contentDisplay="GRAPHIC_ONLY" layoutX="277.0" layoutY="329.0" mnemonicParsing="false" prefHeight="117.0" prefWidth="182.0" text="Button">
+                     <graphic>
+                        <ImageView fitHeight="141.0" fitWidth="175.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../../../../OneDrive/Desktop/Vicotry.jpg" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Button contentDisplay="GRAPHIC_ONLY" layoutX="492.0" layoutY="330.0" mnemonicParsing="false" prefHeight="118.0" prefWidth="218.0" text="Button">
+                     <graphic>
+                        <ImageView fitHeight="129.0" fitWidth="176.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../../../../OneDrive/Desktop/nuka_cola_wild_by_kcajd_dd968aj-fullview.jpg" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: gold;" text="Price:" wrappingWidth="50.13671875">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Text>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: gold;" text="xxx" wrappingWidth="32.13671875">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Text>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: gold;" text="Price:" wrappingWidth="50.13671875">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Text>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: gold;" text="xxx" wrappingWidth="32.13671875">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Text>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: gold;" text="Price:" wrappingWidth="50.13671875">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Text>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: gold;" text="xxx" wrappingWidth="32.13671875">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="492.0" layoutY="75.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: gold;" text="Price:" wrappingWidth="50.13671875">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="542.0" layoutY="75.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: gold;" text="xxx" wrappingWidth="32.13671875">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Text>
+               </children>
+            </AnchorPane>
+         </content>
+      </Tab>
+  </tabs>
+</TabPane>

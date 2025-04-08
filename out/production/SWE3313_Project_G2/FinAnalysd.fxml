@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.CategoryAxis?>
+<?import javafx.scene.chart.LineChart?>
+<?import javafx.scene.chart.NumberAxis?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Spinner?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="753.0" prefWidth="894.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Text layoutX="278.0" layoutY="68.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: gold;" text="Financial Outlook">
+         <font>
+            <Font name="Times New Roman" size="50.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="55.0" fitWidth="58.0" layoutX="14.0" layoutY="22.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../OneDrive/Desktop/Just%20PIZZA.png" />
+         </image>
+      </ImageView>
+      <Text layoutX="69.0" layoutY="56.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: gold;" text="Username Here" wrappingWidth="122.98307228088379" />
+      <ImageView fitHeight="110.0" fitWidth="101.0" layoutX="764.0" layoutY="7.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../OneDrive/Desktop/Updated%20logo.png" />
+         </image>
+      </ImageView>
+      <Text layoutX="85.0" layoutY="127.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: gold;" text="From:" wrappingWidth="62.0">
+         <font>
+            <Font name="Times New Roman" size="18.0" />
+         </font>
+      </Text>
+      <DatePicker layoutX="134.0" layoutY="108.0" prefHeight="27.0" prefWidth="111.0" />
+      <Button layoutX="68.0" layoutY="587.0" mnemonicParsing="false" prefHeight="57.0" prefWidth="135.0" style="-fx-background-color: gold; -fx-text-fill: black; -fx-font-size: 18; -fx-font: Times New Roman;" text="Add Selection">
+         <font>
+            <Font name="Times New Roman Bold" size="20.0" />
+         </font>
+      </Button>
+      <Button layoutX="388.0" layoutY="587.0" mnemonicParsing="false" prefHeight="57.0" prefWidth="143.0" style="-fx-background-color: gold; -fx-text-fill: black; -fx-font-size: 18;" text="Clear Chart" />
+      <Text layoutX="257.0" layoutY="129.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: gold;" text="To:" wrappingWidth="41.0">
+         <font>
+            <Font name="Times New Roman" size="18.0" />
+         </font>
+      </Text>
+      <DatePicker layoutX="290.0" layoutY="109.0" prefHeight="27.0" prefWidth="111.0" />
+      <Text layoutX="412.0" layoutY="132.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: gold;" text="Category:" wrappingWidth="95.0">
+         <font>
+            <Font name="Times New Roman" size="18.0" />
+         </font>
+      </Text>
+      <Spinner layoutX="488.0" layoutY="112.0" prefHeight="27.0" prefWidth="111.0" />
+      <Text layoutX="611.0" layoutY="131.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: gold;" text="Sub-Category: " wrappingWidth="143.0">
+         <font>
+            <Font name="Times New Roman" size="18.0" />
+         </font>
+      </Text>
+      <Spinner layoutX="723.0" layoutY="112.0" prefHeight="27.0" prefWidth="111.0" />
+      <Text layoutX="372.0" layoutY="174.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: gold;" text="Menu-Item:" wrappingWidth="143.0">
+         <font>
+            <Font name="Times New Roman" size="18.0" />
+         </font>
+      </Text>
+      <Spinner layoutX="460.0" layoutY="155.0" prefHeight="27.0" prefWidth="111.0" />
+      <LineChart layoutX="42.0" layoutY="215.0" prefHeight="350.0" prefWidth="500.0" stylesheets="@../Styles/FinOutlook.css" title="Sales And Income Chart">
+        <xAxis>
+          <CategoryAxis side="BOTTOM" />
+        </xAxis>
+        <yAxis>
+          <NumberAxis side="LEFT" />
+        </yAxis>
+      </LineChart>
+      <Text layoutX="595.0" layoutY="231.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: gold;" text="Selected Item Info:" wrappingWidth="152.0">
+         <font>
+            <Font name="Times New Roman" size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="595.0" layoutY="277.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: gold;" text="Category Sold: " wrappingWidth="135.0">
+         <font>
+            <Font name="Times New Roman" size="18.0" />
+         </font>
+      </Text>
+      <Button layoutX="227.0" layoutY="587.0" mnemonicParsing="false" prefHeight="57.0" prefWidth="143.0" style="-fx-background-color: gold; -fx-text-fill: black; -fx-font-size: 18;" text="Chart Mode" />
+      <Text layoutX="595.0" layoutY="317.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: gold;" text="Menu-Items Sold: " wrappingWidth="152.0">
+         <font>
+            <Font name="Times New Roman" size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="595.0" layoutY="383.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: gold;" text="Revenue from Selected: " wrappingWidth="189.0">
+         <font>
+            <Font name="Times New Roman" size="18.0" />
+         </font>
+      </Text>
+      <TextField layoutX="716.0" layoutY="259.0" prefHeight="25.0" prefWidth="152.0" style="-fx-text-fill: gold;" text="xxx" />
+      <TextField layoutX="730.0" layoutY="298.0" prefHeight="26.0" prefWidth="135.0" style="-fx-text-fill: gold;" text="xxx" />
+      <TextField layoutX="767.0" layoutY="364.0" prefHeight="26.0" prefWidth="101.0" style="-fx-text-fill: gold;" text="\$ xx.xx" />
+      <Text layoutX="595.0" layoutY="352.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: gold;" text="Category/Item %: " wrappingWidth="152.0">
+         <font>
+            <Font name="Times New Roman" size="18.0" />
+         </font>
+      </Text>
+      <TextField layoutX="730.0" layoutY="333.0" prefHeight="26.0" prefWidth="135.0" style="-fx-text-fill: gold;" text="xxx%" />
+   </children>
+</Pane>

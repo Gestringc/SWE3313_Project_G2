@@ -1,0 +1,14 @@
+.chart-title {
+    -fx-text-fill: gold;
+    -fx-font-size: 18px;
+}
+
+.axis-label {
+    -fx-text-fill: gold;
+    -fx-font-size: 14px;
+}
+
+.axis .tick-label {
+    -fx-fill: gold;
+    -fx-font-size: 12px;
+}

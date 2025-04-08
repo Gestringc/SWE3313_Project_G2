@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="753.0" prefWidth="894.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Text layoutX="278.0" layoutY="68.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: gold;" text="Customer Portal ">
+         <font>
+            <Font name="Times New Roman" size="50.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="55.0" fitWidth="58.0" layoutX="14.0" layoutY="22.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../SWE3313_Project_G2/src/ImageFiles/Just%20PIZZA.png" />
+         </image>
+      </ImageView>
+      <Text layoutX="69.0" layoutY="56.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: gold;" text="Username Here" wrappingWidth="122.98307228088379" />
+      <ImageView fitHeight="110.0" fitWidth="101.0" layoutX="764.0" layoutY="7.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../SWE3313_Project_G2/src/ImageFiles/Updated%20logo.png" />
+         </image>
+      </ImageView>
+      <Text layoutX="42.0" layoutY="199.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: gold;" text="Place an Order " wrappingWidth="151.0">
+         <font>
+            <Font name="Times New Roman" size="24.0" />
+         </font>
+      </Text>
+      <Text layoutX="40.0" layoutY="392.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: gold;" text="Update Account Information " wrappingWidth="303.0">
+         <font>
+            <Font name="Times New Roman" size="24.0" />
+         </font>
+      </Text>
+      <Text layoutX="39.0" layoutY="324.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: gold;" text="View Past Orders " wrappingWidth="183.0">
+         <font>
+            <Font name="Times New Roman" size="24.0" />
+         </font>
+      </Text>
+      <Text layoutX="604.0" layoutY="711.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: gold;" text="Delete my Account (PLEASE STAY!) " wrappingWidth="261.0">
+         <font>
+            <Font name="Times New Roman" size="16.0" />
+         </font>
+      </Text>
+      <Text layoutX="42.0" layoutY="453.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: gold;" text="Contact us " wrappingWidth="122.98307228088379">
+         <font>
+            <Font name="Times New Roman" size="24.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="325.0" fitWidth="489.0" layoutX="343.0" layoutY="192.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../SWE3313_Project_G2/src/ImageFiles/Work%20Pizza.jpg" />
+         </image>
+      </ImageView>
+      <Text layoutX="42.0" layoutY="262.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: gold;" text="View Cart" wrappingWidth="122.98307228088379">
+         <font>
+            <Font name="Times New Roman" size="24.0" />
+         </font>
+      </Text>
+   </children>
+</Pane>
