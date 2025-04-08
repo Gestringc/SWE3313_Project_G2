@@ -7,7 +7,7 @@ import java.sql.SQLException;
 
 import static javax.swing.JOptionPane.showInputDialog;
 
-    class CustomerAccount {
+class CustomerAccount {
         private String name;
         private String address;
         private String phone;
