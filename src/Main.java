@@ -40,4 +40,13 @@ public class Main extends Application {
         System.out.println("Path: " + Main.class.getResource("/Resources/CustomerAccountTable.fxml"));
         launch(args);
     }
+
+    public static void createAccount() {
+    }
+
+    public static void modifyAccount() {
+    }
+
+    public static void deleteAccount() {
+    }
 }
